@@ -1,0 +1,11 @@
+{
+  "name": "js-dev-toolkit",
+  "version": "0.1.0",
+  "description": "a simple todo app",
+  "main": "todos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "You",
+  "license": "MIT"
+}
