@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 			       'lib/underscore.js',
 			       'lib/backbone.js',
 			       'lib/backbone.localStorage.js'
-			    ],
+			    ]
 			}
 		}
 	}
