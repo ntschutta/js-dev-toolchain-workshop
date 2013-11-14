@@ -15,8 +15,16 @@ module.exports = function(grunt) {
 			    ]
 			}
 		}
-	}
+	},
+	jshint: {
+        files: ['todos.js'],
+        options: {
+           globals: {
+	         jQuery: true
+	       }
+        }
+    }
   });
   grunt.loadNpmTasks('grunt-contrib-jasmine');
-
+  grunt.loadNpmTasks('grunt-contrib-jshint');
 };
