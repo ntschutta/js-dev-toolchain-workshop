@@ -9,6 +9,7 @@
   "author": "You",
   "license": "MIT",
   "devDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.1",
+    "karma-phantomjs-launcher": "~0.1.0"
   }
 }
