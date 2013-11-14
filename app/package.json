@@ -10,6 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.1",
-    "karma-phantomjs-launcher": "~0.1.0"
+    "karma-phantomjs-launcher": "~0.1.0",
+    "grunt-contrib-jasmine": "~0.5.2"
   }
 }
