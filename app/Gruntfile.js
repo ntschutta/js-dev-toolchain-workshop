@@ -3,8 +3,8 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 	jasmine: {
-		customTemplate: {
-			src: 'src/**/*.js',
+		todo: {
+			src: 'todo.js',
 			options: {
 				specs: 'test/spec/*Spec.js',
 				vendor: [
@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 			       'lib/underscore.js',
 			       'lib/backbone.js',
 			       'lib/backbone.localStorage.js'
-			    ]
+			    ],
 			}
 		}
 	}
