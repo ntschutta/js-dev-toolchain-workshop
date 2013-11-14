@@ -1,0 +1,24 @@
+To Install:
+-----------
+npm install -g karma
+
+To Init:
+-----------
+karma init my.todo.js
+
+To Start:
+-----------
+karma start my.todo.js
+
+Files config:
+-----------
+files: [
+       {pattern: 'index.html', watched: false, included: false, served: true},
+       'lib/jquery.js',
+       'lib/underscore.js',
+       'lib/backbone.js',
+       'lib/backbone.localStorage.js',
+       'test/lib/jasmine-html.js',
+       {pattern: 'todos.js', watched: true, included: false, served: true},
+   'test/**/*Spec.js'
+     ],

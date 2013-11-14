@@ -1,0 +1,25 @@
+To Install:
+-----------
+npm install -g grunt-cli
+
+Version:
+-----------
+grunt --version
+
+Init:
+-----------
+npm init
+
+Add Grunt:
+-----------
+npm install grunt --save-dev
+
+Wrapper Function:
+-----------
+module.exports = function(grunt) { };
+
+Grunt init:
+-----------
+grunt.initConfig({
+   pkg: grunt.file.readJSON('package.json')
+});
