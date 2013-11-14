@@ -19,8 +19,9 @@ module.exports = function(grunt) {
 	jshint: {
         files: ['todos.js'],
         options: {
+		   eqeqeq: true,
            globals: {
-	         jQuery: true
+	         jQuery: true,
 	       }
         }
     }
