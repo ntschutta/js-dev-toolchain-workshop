@@ -13,10 +13,16 @@ module.exports = function(config) {
 
 
     // list of files / patterns to load in the browser
-    files: [
-      
-    ],
-
+	files: [
+	       {pattern: 'index.html', watched: false, included: false, served: true},
+	       'lib/jquery.js',
+	       'lib/underscore.js',
+	       'lib/backbone.js',
+	       'lib/backbone.localStorage.js',
+	       'test/lib/jasmine-html.js',
+	       {pattern: 'todos.js', watched: true, included: false, served: true},
+	   'test/**/*Spec.js'
+	],
 
     // list of files to exclude
     exclude: [
