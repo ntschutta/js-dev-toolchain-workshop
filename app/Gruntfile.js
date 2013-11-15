@@ -27,15 +27,26 @@ module.exports = function(grunt) {
     },
 
     plato: {
-	  tasks: {
+	  task: {
         files: {
           'report': ['todos.js'],
         }
       }
     },
-
+	
+	uglify: {
+	  options: {
+	    banner: '/*! todos.js <%= grunt.template.today("dd-mm-yyyy") %> */\n'
+	  },
+	  dist: {
+	    files: {
+	      'dist/todos-min.js': ['todos.js']
+	    }
+	  }
+	},
   });
   grunt.loadNpmTasks('grunt-contrib-jasmine');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-plato');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 };
