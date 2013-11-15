@@ -19,7 +19,7 @@ Attendees are expected to have a laptop (or be very good at quickly making frien
 * [Firefox](http://www.mozilla.org/en-US/firefox/new/)
 * [Opera](http://www.opera.com)
 
-In addition, you should have a text editor though you can certainly use an IDE if you wish but nothing will require that. Before the class, be clone this repository to some location on your hard drive.
+In addition, you should have a text editor though you can certainly use an IDE if you wish but nothing will require that. Before the class, please clone this repository to some location on your hard drive.
 
 ##Warning - Command Line Ahead!##
 Much of the work we will do in this workshop will center around the command line. If you aren't comfortable typing commands in to a prompt, you may wish to attend a different session, make a friend, or just follow along with the rest of the class. If you are on a Windows machine, you may want to install [Cygwin](http://www.cygwin.com).
