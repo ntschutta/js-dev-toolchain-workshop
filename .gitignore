@@ -1,0 +1,6 @@
+app/node_modules
+app/dist
+app/report
+app/test/spec/coverage
+installs/jasmine/jasmine-standalone-1.3.0.zip
+Folder

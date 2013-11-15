@@ -1,0 +1,8 @@
+To Install:
+-----------
+npm install karma-phantomjs-launcher --save-dev
+
+To Run:
+-----------
+karma start my.todo.js
+
