@@ -4,7 +4,7 @@ js-dev-toolchain-workshop
 JavaScript, not just for interns.
 
 #The JavaScript Developer's Toolchain Workshop#
-So what is this? It's a JavaScript Developer's Toolchain workshop that I'm giving (first run at the [Rich Web Experience](https://therichwebexperience.com/conference/fort_lauderdale/2013/12/home)) The goal is simple: expose people to a set of tools that can make developing modern web applications easier. Here's the conference blurb:
+So what is this? It's a JavaScript Developer's Toolchain workshop that I'm giving (first run at the [Rich Web Experience](https://therichwebexperience.com/conference/fort_lauderdale/2013/12/home)). The goal is simple: expose people to a set of tools that can make developing modern web applications easier. Here's the conference blurb:
 
 ##Conference Blurb##
 Back in the day, web developers had to rely on their wits and a plethora of alert statements - to say our toolkit was spartan would be an understatement. But with the increased importance of web front ends and the rise of JavaScript MVC frameworks, a modern web developer toolkit is finally emerging. We've evolved from text editors to full fledged IDE's with code completion and refactoring tools but our toolchain doesn't end there. With multiple testing libraries, mocking frameworks, test drivers and even code coverage tools, today's web developer gets to walk downhill on a sunny day.
