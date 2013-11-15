@@ -1,0 +1,10 @@
+Verify Install
+-----------
+node --version
+
+REPL:
+-----------
+node
+
+a = [ ‘node’, ‘grunt’, ‘jasmine’]
+a.length

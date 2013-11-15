@@ -1,0 +1,30 @@
+To Install:
+-----------
+npm install uglify-js -g
+
+To Run:
+-----------
+uglifyjs todos.js --output dist/todos-min.js
+
+Grunt Plugin:
+-----------
+npm install grunt-contrib-uglify --save-dev
+
+Gruntfile.js:
+-----------
+grunt.loadNpmTasks('grunt-contrib-uglify');
+
+uglify: {
+  options: {
+    banner: '/*! todos.js <%= grunt.template.today("dd-mm-yyyy") %> */\n'
+  },
+  dist: {
+    files: {
+      'dist/todos-min.js': ['todos.js']
+    }
+  }
+},
+
+To Run:
+-----------
+grunt uglify

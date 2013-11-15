@@ -1,0 +1,26 @@
+Grunt Plugin:
+-----------
+npm install grunt-contrib-jasmine --save-dev
+
+Gruntfile.js:
+-----------
+grunt.loadNpmTasks('grunt-contrib-jasmine');
+
+jasmine: {
+	todo: {
+		src: 'todo.js',
+		options: {
+			specs: 'test/spec/*Spec.js',
+			vendor: [
+			   'lib/jquery.js',
+		       'lib/underscore.js',
+		       'lib/backbone.js',
+		       'lib/backbone.localStorage.js'
+		    ]
+		}
+	}
+},
+
+To Run:
+-----------
+grunt jasmine
