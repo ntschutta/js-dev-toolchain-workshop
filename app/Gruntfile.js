@@ -24,8 +24,18 @@ module.exports = function(grunt) {
 	         jQuery: true,
 	       }
         }
-    }
+    },
+
+    plato: {
+	  tasks: {
+        files: {
+          'report': ['todos.js'],
+        }
+      }
+    },
+
   });
   grunt.loadNpmTasks('grunt-contrib-jasmine');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-plato');
 };
