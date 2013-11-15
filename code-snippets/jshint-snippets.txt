@@ -1,0 +1,32 @@
+To Install:
+-----------
+npm install jshint -g --save-dev
+
+To Run:
+-----------
+jshint todos.js
+
+Grunt Plugin:
+-----------
+npm install grunt-contrib-jshint --save-dev
+
+Gruntfile.js:
+-----------
+grunt.loadNpmTasks('grunt-contrib-jshint');
+
+jshint: {
+    files: ['todos.js'],
+    options: {
+       globals: {
+         jQuery: true,
+       }
+    }
+},
+
+To Run:
+-----------
+grunt jshint
+
+Enforce ===
+-----------
+eqeqeq: true,

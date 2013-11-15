@@ -1,0 +1,27 @@
+To Install:
+-----------
+npm install plato -g
+
+To Run:
+-----------
+plato -d report todos.js
+
+Grunt Plugin:
+-----------
+npm install grunt-plato --save-dev
+
+Gruntfile.js:
+-----------
+grunt.loadNpmTasks('grunt-plato');
+
+plato: {
+  task: {
+    files: {
+      'report': ['todos.js'],
+    }
+  }
+},
+
+To Run:
+-----------
+grunt jshint
