@@ -1,0 +1,8 @@
+To Install:
+-----------
+npm install -g istanbul
+
+To Run:
+-----------
+istanbul cover todoSpec.js
+
